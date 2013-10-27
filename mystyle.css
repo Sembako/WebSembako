@@ -1,0 +1,42 @@
+div.logo
+{
+	position:fixed;
+	top:0px;
+	width:200px;
+	height:50px;
+	padding:5px;
+	margin-left:200px;
+	
+}
+.header
+{
+	padding:0px;
+	margin-top:50px;
+	margin-left:200px;
+	margin-right:200px;
+	background-color:#6ef2d8;
+	height:30px;
+}
+.menu
+{
+	padding:5px;
+	padding-left:12px;
+	padding-right:12px;
+	height:20px;
+	text-align:center;
+	color:#197260;
+	float:left;
+	text-outline:5px;
+}
+.apa
+{
+	position:fixed;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background-color:#000000;
+	opacity:0.7;
+	z-index:105;
+}
