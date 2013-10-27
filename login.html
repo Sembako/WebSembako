@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <meta charset = "UTF-8">
-<title>Sembako</title>
+<title>login</title>
 <link rel = "stylesheet" type = "text/css" href = "mystyle.css">
 
 </head>
-
 <body>
 <div class = "all">
 <div class = "logo">
@@ -29,12 +25,19 @@
 	<div class = "menu">SHOPPING BAG</div>
 	<a href = "login.html">
 	<div class = "menu">LOGIN </div>
-	</a>
+	</a> 
 	<a href = "register.html">
 	<div class = "menu">REGISTER</div>
 	</a>
 </div>
-<div class = "page">
+<div class = "pagelogin">
+<div class = "formlogin">
+<form name="login" action="html_form_action.asp" method="get">
+Username : <input type="text" name="usename"><br><br>
+Password : <input type="password" name="pwd"><br><br>
+<input type="submit" value="Login">
+</form>
+</div>
 </div>
 </div>
 </body>
