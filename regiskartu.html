@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <meta charset = "UTF-8">
-<title>Sembako</title>
+<title>register</title>
 <link rel = "stylesheet" type = "text/css" href = "mystyle.css">
 <script type="text/javascript" src="pop.js"></script>
+<script type="text/javascript" src="login.js"></script>
+
 
 </head>
-
 <body>
 <div class = "all">
 <div class = "logo">
@@ -41,13 +39,12 @@
 	<a href = "cart.php" target="page1">
 	<div class = "menu">SHOPPING BAG</div>
 	</a>
-	
 	<div style="display: none;" id="blanket"></div>
 	<div style="display: none;" id="popUpDiv">
 	<a onclick="popup('popUpDiv')" href="#"><img alt="" src="close.jpg" /></a><br />
 	<div class="popup">
 	<form name="login" action="html_form_action.asp" method="get">
-	Username : <input type="text" name="usename"><br><br>
+	Username : <input type="text" name="username"><br><br>
 	Password : <input type="password" name="pwd"><br><br>
 	<button type="button" onclick="valLogin(username.value,pwd.value)">Login</button>
 	<div id="valog"></div> <br><br> 
@@ -65,7 +62,7 @@
 	
 </div>
 <div class="search">
-<input type="text" name="searchnama">
+<input type="text" name="search">
 <select name="searchkategori">
 	<option value="pilihkategori">Pilih kategori ... </option>
 	<option value="sayur">Sayur</option>
@@ -85,8 +82,17 @@
 <input type="submit" value="Search">
 </div>
 <div class = "page">
-<iframe src="lala.html" frameborder="0" width="935" height="800" name="page1">
-</iframe>
+<div class = "formregis">
+<form name="regis" >
+Card number : <input type="text" name="cardnumber" ><br><br>
+Name on card : <input type="text" name="nameoncard"><br><br>
+Expired date : <input type="text" name="expdate" ><br><br>
+<button type="button">
+submit</button>
+
+</form>
+
+</div>
 </div>
 </div>
 </body>
